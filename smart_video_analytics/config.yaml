@@ -1,0 +1,20 @@
+use_case: "mall"
+
+features:
+  mall:
+    people_counting: true
+    line_crossing: false
+    crowd_alert: true
+    roi: true
+
+  office:
+    people_counting: false
+    line_crossing: true
+    crowd_alert: false
+    roi: false
+
+  metro:
+    people_counting: true
+    line_crossing: false
+    crowd_alert: true
+    roi: false
